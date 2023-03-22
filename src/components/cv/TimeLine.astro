@@ -1,7 +1,6 @@
 ---
-const { title, subtitle, desc } = Astro.props;
+const { title, subtitle, desc,desc1,desc2,desc3,desc4,desc5 } = Astro.props;
 ---
-
 <div class="flex">
   <div class="education__time">
     <span class="w-4 h-4 bg-primary block rounded-full mt-1"></span>
@@ -10,8 +9,36 @@ const { title, subtitle, desc } = Astro.props;
   <div class="experience__data bd-grid px-5">
     <h3 class="font-semibold mb-1">{title}</h3>
     <span class="font-light text-sm">{subtitle}</span>
-    <p class="my-2 text-justify">
+     <p class="my-2 text-justify">
       {desc}
     </p>
+    {desc1 && (
+      <li>
+        {desc1}
+      </li>
+    )}
+    {desc2 && (
+      <li>
+        {desc2}
+      </li>
+    )}
+    {desc3 && (
+      <li>
+        {desc3}
+      </li>
+    )}
+    {desc4 && (
+      <li>
+        {desc4}
+      </li>
+    )}
+    {desc5 && (
+      <li>
+        {desc5}
+      </li>
+    )}
+
+    <p class="my-2 text-justify"></p>
+    
   </div>
 </div>

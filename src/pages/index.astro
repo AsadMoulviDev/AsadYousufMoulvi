@@ -16,7 +16,7 @@ const last_posts = posts.slice(0, 3);
     <div class="pb-12 mt-5">
       <div class="text-xl py-1">Hey there 👋</div>
       <div class="text-5xl font-bold">I'm Asad Moulvi</div>
-      <div class="text-3xl py-3 font-bold">Data Scientist and AI enthusiast</div>
+      <div class="text-3xl py-3 font-bold"></div>
       <div class="py-2">
         <text class="text-lg">
           On this website, you will find examples of my work that showcase my ability to translate data into meaningful insights, as well as my technical skills in data analysis and modeling. Whether you are a potential employer, a fellow data scientist, or just someone interested in the field, I hope that my portfolio provides you with insight into the value that I can bring to your organization!
@@ -61,29 +61,26 @@ const last_posts = posts.slice(0, 3);
       <div class="text-3xl w-full font-bold mb-5 mt-10"></div>
     </div>
 
-     <div class="mb-5">
-    <div class="text-3xl w-full font-bold">Profile</div>
-  </div>
 
-  <div class="mb-10 text-justify">
-    Engineer in Informatics Science with 6 years + of experience in software development. Dominion of various programming
-    languages, frameworks, CMS and graphics engines. Experience in WEB design and development. Work with Data Base handled
-    systems, as well as design, normalization and migration. Knowledge of work with graphic design tools for image
-    manipulation , User Interfaces design, Web sites, logos and other ones.
-  </div>
+
+
+
+
 
   <div class="mb-5">
     <div class="text-3xl w-full font-bold">Education</div>
   </div>
 
   <div class="time-line-container grid gap-4 mb-10">
+
     <TimeLineElement
-      title="Technician Information-Technology"
-      subtitle="2006 to 2009 at Osvaldo Herrera Polytechnic institute, Habana, Cuba"
+      title="University of Nottingham (Bachelor of Science, Physics)"
+      subtitle="Bachelor of Science, Physics from September 2017 to June 2020"
     />
+
     <TimeLineElement
-      title="Informatics Science Engineer"
-      subtitle="2010 to 2015 at University of Informatics Science (UCI), Habana, Cuba"
+      title="University of Texas at Dallas"
+      subtitle="Master of Science in Business Analytics from August 2023"
     />
   </div>
 
@@ -93,24 +90,28 @@ const last_posts = posts.slice(0, 3);
 
   <div class="time-line-container mb-10">
     <TimeLineElement
-      title="UI Designer and Developer at Integral Access Control System (Thesis)"
-      subtitle="From 2015 at XETID, Habana, Cuba"
-      desc="System multiplatform that includes the steps of a company's personnel, the structure and composition thereof, as well as a powerful designer of credentials and module of control of access. Outspread at the MINFAR and another entities of the country. Technologies: C++, Qt Framework, Subversión, Visual Paradigm, PostgreSQL, Jmeter"
+      title="Data Analyst at DataQ Health"
+      subtitle="From Januray 2022 , Dallas, Texas, US (Remote)"
+      
+      desc1='Took over managing the Azure Data Factory from an outsider contractor and by doing so I saved the company $20,000 annually'
+      desc2 = 'Built and deployed an ETL pipeline that converts raw txt files into the data model, the pipeline was written in Python using numpy and Pandas deployed on an AWS Lamda service'
+      desc3 = 'Wrote SQL Stored procedures to generate insights from the data warehouse such as Hospital admissions, Emergency room visits, Costs and 65 other datapoints.'
+      desc4 = 'Used those SQL SPs to generate APIs that were used to display this information on a Population Health Management tool, the APIs were written in Python using FastAPI'
+      desc5="Created and managed a data warehouse in SnowFlake, consisting of multiple TB of medical claims data"
     />
     <TimeLineElement
-      title="Web Developer at Integral Oil Drilling System 2.0"
-      subtitle="From 2015 to 2016 at CEDIN, UCI, Habana, Cuba"
-      desc="System of steps of process of perforation of oil wells. Outspread in the direction of Intervención of Wells and various wells of drilling of the Occident of the country. Generate reports and graphs of process of perforation making use of data mining. Technologies: Php,Symfony 2.7 , Subversión, PostgreSQL, HigthChart, Ireport, Boostrap 2, JQuery, HTML,CSS, JavaScript"
+      title="Marketing Data Analyst at The Health Bank"
+      subtitle="From September 2020 to September 2021 at Dubai, United Arab Emirates (Remote)"
+      desc1 = "Consolated data from Google Ads, Google Analytics and Zoho CRM on to Power BI that allowed for the organization's entire data to be visualized"
+      decs2 ="Designed Power BI dashboards to keep track of sales and marketing KPIs on an daily basis"
+      desc3 ="Forecasted monthly sales amount using Power BI for over 9 services"
+
+
     />
     <TimeLineElement
-      title="Full Stack Dev, Software Architect and Project Leader at Integral Oil Drilling System 3.0"
-      subtitle="From 2016 to 2017 at CEDIN, UCI, Habana, Cuba"
-      desc="System of steps of process of perforation of oil wells. Outspread in the direction of Intervención of Wells and various wells of drilling of the Occident of the country. Generate reports and graphs of process of perforation making use of data mining. Technologies: Php,Symfony 2.8 , Gitlab, PostgreSQL, HigthChart, Boostrap 2, JQuery, HTML,CSS, JavaScript"
-    />
-    <TimeLineElement
-      title="Business Intelligence Analyst, at Primary Information System"
-      subtitle="From 2017 to 2018 at CEDIN, UCI, Habana, Cuba"
-      desc="System of steps of primary information at a company. personnel's steps, control of access, impression of credentials, steps of locales, structure and composition. Technologies: Php,Symfony 3.3 , Gitlab, PostgreSQL, , Boostrap 3, JQuery, HTML,CSS, JavaScript"
+      title="Part Time Ecommerce Data Analyst at Neoncrate (University of Illinois Start-Up Accelerator)"
+      subtitle="From August 2019 to September 2020 at Champaign, Illinois, US (Remote)"
+      desc1 ='Integrated Mixpanel on the Shopify Store to monitor user behavior on the site, segmented users to identify the ones who were most likely to purchase the product'
     />
   </div>
 
@@ -120,11 +121,12 @@ const last_posts = posts.slice(0, 3);
 
   <ul class="list-disc mx-6 mb-10 grid gap-2">
     <li>
-      <a href="https://www.efset.org/cert/DxtNKG" target="_blank"> EF SET English Certificate 74/100 (C2 Proficient)</a>
+      <a href="https://www.credly.com/badges/21ffb828-fd97-440e-9a3f-b0c43086c7b3?source=linked_in_profile" target="_blank"> Hands On Essentials - Data Warehouse (SnowFlake)</a>
     </li>
     <li>
-      <a href="https://certiprof.com/pages/scrum-foundation-professional-certificate-sfpc-en-sp" target="_blank"> Scrum Foundation Professional Certificate (SFPC)</a>
+      <a href="https://www.coursera.org/account/accomplishments/specialization/certificate/4ZY2C3HH9RL3" target="_blank"> Professional Certificate from DeepLearning.AI as a TensorFlow Developer</a>
     </li>
+
   </ul>
 
   <div class="mb-5">
@@ -132,24 +134,24 @@ const last_posts = posts.slice(0, 3);
   </div>
 
   <ul class="list-disc md:columns-5 columns-2 mx-6">
-    <li>Spanish (Native)</li>
-    <li>English (C2)</li>
+    <li>English (Native)</li>
+    <li>Urdu (Native)</li>
     <li>JavaScript</li>
-    <li>C++</li>
-    <li>PHP</li>
-    <li>Ruby</li>
+    <li>Python</li>
+    <li>Tensorflow</li>
+    <li>Keras</li>
+    <li>Matplotlib</li>
+    <li>BeautifulSoup</li>
+    <li>Dask</li>
+    <li>Pyspark</li>
+    <li>Flutter</li>
+    <li>R</li>
     <li>Postgres SQL</li>
     <li>MySQL</li>
     <li>CSS</li>
-    <li>SASS</li>
     <li>HTML</li>
     <li>Node.js</li>
-    <li>Ruby on Rails</li>
-    <li>AngularJS</li>
-    <li>VUE</li>
     <li>Astro</li>
-    <li>Symfony 3</li>
-    <li>Yii2</li>
     <li>Bootstrap</li>
     <li>Taildwind</li>
     <li>JQuery</li>
@@ -159,15 +161,13 @@ const last_posts = posts.slice(0, 3);
     <li>Trello</li>
     <li>BaseCamp</li>
     <li>Scrum</li>
-    <li>Shape Up</li>
-    <li>LeanStartup</li>
     <li>UI Design</li>
     <li>WEB Design</li>
     <li>Logo Design</li>
     <li>Image Manipulation</li>
     <li>Office Suite</li>
     <li>Adobe Photoshop</li>
-    <li>KdenLive</li>
+  
   </ul>
 
 
