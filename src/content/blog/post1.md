@@ -1,17 +1,25 @@
 ---
-title: "100+ USMLE STEP 1 Exam Questions by GPT3"
+title: "Can ChatGPT Help You Overcome the Challenges of Studying for the USMLE?"
 description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-pubDate: "Sep 10 2022"
+pubDate: "March 23 2023"
 heroImage: "/Screenshot 2023-03-22 at 5.32.25 PM.png"
 ---
 
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae ultricies leo integer malesuada nunc vel risus commodo viverra. Adipiscing enim eu turpis egestas pretium. Euismod elementum nisi quis eleifend quam adipiscing. In hac habitasse platea dictumst vestibulum. Sagittis purus sit amet volutpat. Netus et malesuada fames ac turpis egestas. Eget magna fermentum iaculis eu non diam phasellus vestibulum lorem. Varius sit amet mattis vulputate enim. Habitasse platea dictumst quisque sagittis. Integer quis auctor elit sed vulputate mi. Dictumst quisque sagittis purus sit amet.
+Have you heard the news about how ChatGPT, the AI language model trained by OpenAI, passed the United States Medical Licensing Examination (USMLE)? As someone who is passionate about both artificial intelligence and medicine, I was fascinated by this achievement and wondered if ChatGPT could do more than just pass the exam.
 
-Morbi tristique senectus et netus. Id semper risus in hendrerit gravida rutrum quisque non tellus. Habitasse platea dictumst quisque sagittis purus sit amet. Tellus molestie nunc non blandit massa. Cursus vitae congue mauris rhoncus. Accumsan tortor posuere ac ut. Fringilla urna porttitor rhoncus dolor. Elit ullamcorper dignissim cras tincidunt lobortis. In cursus turpis massa tincidunt dui ut ornare lectus. Integer feugiat scelerisque varius morbi enim nunc. Bibendum neque egestas congue quisque egestas diam. Cras ornare arcu dui vivamus arcu felis bibendum. Dignissim suspendisse in est ante in nibh mauris. Sed tempus urna et pharetra pharetra massa massa ultricies mi.
+This led me to embark on a project to see if I could use ChatGPT's capabilities to create new questions for the USMLE. Specifically, I wanted to see if the language model could generate USMLE-style questions on the cardiovascular system, one of the most important topics in medical education.
 
-Mollis nunc sed id semper risus in. Convallis a cras semper auctor neque. Diam sit amet nisl suscipit. Lacus viverra vitae congue eu consequat ac felis donec. Egestas integer eget aliquet nibh praesent tristique magna sit amet. Eget magna fermentum iaculis eu non diam. In vitae turpis massa sed elementum. Tristique et egestas quis ipsum suspendisse ultrices. Eget lorem dolor sed viverra ipsum. Vel turpis nunc eget lorem dolor sed viverra. Posuere ac ut consequat semper viverra nam. Laoreet suspendisse interdum consectetur libero id faucibus. Diam phasellus vestibulum lorem sed risus ultricies tristique. Rhoncus dolor purus non enim praesent elementum facilisis. Ultrices tincidunt arcu non sodales neque. Tempus egestas sed sed risus pretium quam vulputate. Viverra suspendisse potenti nullam ac tortor vitae purus faucibus ornare. Fringilla urna porttitor rhoncus dolor purus non. Amet dictum sit amet justo donec enim.
+To achieve this, I fine-tuned the model to understand the format and structure of USMLE questions. The process involved training the model on a large corpus of USMLE questions and answers, enabling it to understand the key components of a USMLE-style question, such as the stem, the answer choices, and the distractors.
 
-Mattis ullamcorper velit sed ullamcorper morbi tincidunt. Tortor posuere ac ut consequat semper viverra. Tellus mauris a diam maecenas sed enim ut sem viverra. Venenatis urna cursus eget nunc scelerisque viverra mauris in. Arcu ac tortor dignissim convallis aenean et tortor at. Curabitur gravida arcu ac tortor dignissim convallis aenean et tortor. Egestas tellus rutrum tellus pellentesque eu. Fusce ut placerat orci nulla pellentesque dignissim enim sit amet. Ut enim blandit volutpat maecenas volutpat blandit aliquam etiam. Id donec ultrices tincidunt arcu. Id cursus metus aliquam eleifend mi.
+After fine-tuning the model, I asked ChatGPT to generate 100 questions on the cardiovascular system. The results were impressive, covering a wide range of topics from the anatomy and physiology of the heart to the diagnosis and treatment of cardiovascular diseases.
 
-Tempus quam pellentesque nec nam aliquam sem. Risus at ultrices mi tempus imperdiet. Id porta nibh venenatis cras sed felis eget velit. Ipsum a arcu cursus vitae. Facilisis magna etiam tempor orci eu lobortis elementum. Tincidunt dui ut ornare lectus sit. Quisque non tellus orci ac. Blandit libero volutpat sed cras. Nec tincidunt praesent semper feugiat nibh sed pulvinar proin gravida. Egestas integer eget aliquet nibh praesent tristique magna.
+To showcase the potential of these generated questions, I created a quiz app that medical students and physicians could use to test their knowledge of the cardiovascular system. The app featured multiple-choice questions with answer explanations and provided users with immediate feedback on their performance.
+
+By using AI-generated questions, the quiz app was able to provide a large number of challenging questions that covered various aspects of the cardiovascular system. This allowed medical students and physicians to test their knowledge in a fun and engaging way and helped them prepare for the USMLE and other medical exams.
+
+My experience with generating USMLE-style questions has shown the potential of AI in the medical field. By leveraging the power of language models like ChatGPT, we can create new and innovative tools to help medical students and physicians prepare for exams and enhance their medical knowledge.
+
+In conclusion, AI-generated questions offer a promising new approach to medical education and exam preparation. As technology continues to advance, we can expect to see more applications of AI in the medical field, offering new ways to improve healthcare and medical education.
+
+If you're interested in testing your knowledge of the cardiovascular system or preparing for the USMLE, you can check out the quiz app that I created using the AI-generated questions. The app is available [here](https://med-learning.web.app/#/). I hope you find it useful and informative!
