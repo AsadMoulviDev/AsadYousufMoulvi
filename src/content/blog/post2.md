@@ -1,7 +1,7 @@
 ---
 title: "Lets change medical transcription forever"
 description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-pubDate: "Sep 11 2022"
+pubDate: "April 15 2023"
 heroImage: "/Medical-Transcription.webp"
 ---
 
