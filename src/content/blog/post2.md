@@ -65,8 +65,26 @@ By utilizing the power of the Pinecone vector database in combination with the C
 
 Lets check out what the end result looks like.
 
+<style>
+        .responsive-iframe {
+            position: relative;
+            overflow: hidden;
+            width: 100%;
+            padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+        }
 
+        .responsive-iframe iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: 0;
+        }
+</style>
 
 <p align="center">
 
-<iframe src="https://streamable.com/e/79jvxi?nocontrols=1" width="560" height="998" frameborder="0" allowfullscreen></iframe>
+<div class="responsive-iframe">
+    <iframe src="https://streamable.com/e/79jvxi?nocontrols=1" width="560" height="998" frameborder="0" allowfullscreen></iframe>
+</div>
