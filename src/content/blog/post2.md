@@ -11,9 +11,10 @@ But we're not stopping there, no sir! We're gonna take things a step further by 
 
 We've worked hard to refine and improve this system, making sure it's constantly learning and improving with each use. With the ability to accurately transcribe conversations and provide quick answers to medical-related questions, this system has the potential to revolutionize the way medical professionals work.
 
-So, let's get this system out there and start changing the world of healthcare, one transcription at a time!
 
 ## Step 1: The interface 
+
+<p align="center"><img src="https://www.howtogeek.com/wp-content/uploads/csit/2021/11/af168a3a.jpeg?height=200p&trim=2,2,2,2" alt="Demographics" width="350px" style="border-radius: 10px"/></p>
 
 
 Step 1, we're gonna use Flutter, which is a cross-platform framework to make a mobile chat interface. We want to create a simple and user-friendly interface that allows medical professionals to easily upload their audio recordings to our system.
@@ -33,8 +34,7 @@ So, let's get to work and create a chat interface that will help us revolutioniz
 
 ## Step 2: The transcription
 
-<p align="center">
-Uploadin the audio
+
 
 
 <p align="center"><img src="https://i.ibb.co/P1rMxPt/intro1.png" alt="Demographics" width="350px" style="border-radius: 10px"/></p>
@@ -48,6 +48,8 @@ Semantic search is an advanced search technique that uses machine learning algor
 By utilizing semantic search, we can ensure that medical professionals have quick and easy access to the information they need, even if it's not expressed in the exact words they're searching for. This advanced search capability is just one more way we're using technology to make medical transcription and information access more efficient and effective.
 
 ## Step 3: Giving GPT3 memory using a vector database
+
+<p align="center"><img src="https://weaviate.io/assets/images/vector-library-vs-database-77398afc1da9251e09375fc1a6c6c392.png" alt="Demographics" width="350px" style="border-radius: 10px"/></p>
 
 Step three of our plan involves hosting the text embeddings on a vector database such as Pinecone. A vector database is a type of database that is specifically designed to store and search through high-dimensional vectors, such as the text embeddings we generated in step two.
 
