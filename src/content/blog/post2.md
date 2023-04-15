@@ -81,10 +81,11 @@ Lets check out what the end result looks like.
             height: 100%;
             border: 0;
         }
+
 </style>
 
 <p align="center">
 
 <div class="responsive-iframe">
-    <iframe src="https://streamable.com/e/79jvxi?nocontrols=1" width="560" height="998" frameborder="0" allowfullscreen></iframe>
+    <iframe src="https://streamable.com/e/79jvxi" width="560" height="998" frameborder="0" allowfullscreen></iframe>
 </div>
